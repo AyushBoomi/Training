@@ -1,4 +1,4 @@
-package main.java.Inheritance.Overriding;
+package Inheritance.Overriding;
 
 public class Animal {
 public static void testClassMethod() {

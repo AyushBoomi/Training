@@ -1,4 +1,4 @@
-package main.java.DesignPatterns.Adapter;
+package DesignPatterns.Adapter;
 
 public class VlcPlayer implements AdvancedMediaPlayer{
     @Override

@@ -1,4 +1,4 @@
-package main.java.Strings;
+package Strings;
 
 
 //Given a string s of '(' , ')' and lowercase English characters.

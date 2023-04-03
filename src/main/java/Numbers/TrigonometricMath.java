@@ -1,4 +1,4 @@
-package main.java.Numbers;
+package Numbers;
 
 public class TrigonometricMath {
 

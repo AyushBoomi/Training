@@ -1,4 +1,4 @@
-package main.java.Internationalization;
+package Internationalization;
 
 import java.util.Locale;
 import java.util.ResourceBundle;

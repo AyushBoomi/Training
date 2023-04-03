@@ -1,4 +1,4 @@
-package main.java.jaxb;
+package jaxb;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

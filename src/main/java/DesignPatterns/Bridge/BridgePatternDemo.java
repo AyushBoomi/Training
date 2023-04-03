@@ -1,4 +1,4 @@
-package main.java.DesignPatterns.Bridge;
+package DesignPatterns.Bridge;
 
 public class BridgePatternDemo {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package main.java.Junit.test.assertions;
+package Junit.test.assertions;
 
-import main.java.Junit.src.Book;
-import main.java.Junit.src.BookService;
+import Junit.src.Book;
+import Junit.src.BookService;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package main.java.Generics;
+package Generics;
 
 public class MyGen <T>{
     T obj;

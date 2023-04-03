@@ -1,4 +1,4 @@
-package main.java.DesignPatterns.Facade;
+package DesignPatterns.Facade;
 
 public class Square implements Shape {
 

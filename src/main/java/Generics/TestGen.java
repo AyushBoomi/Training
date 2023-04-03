@@ -1,4 +1,4 @@
-package main.java.Generics;
+package Generics;
 
 public class TestGen {
     public static void main(String[] args) {

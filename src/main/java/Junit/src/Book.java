@@ -1,4 +1,4 @@
-package main.java.Junit.src;
+package Junit.src;
 
 public class Book {
 

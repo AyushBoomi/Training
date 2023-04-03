@@ -1,4 +1,4 @@
-package main.java.Java8.ForEach;
+package Java8.ForEach;
 
 import java.util.ArrayList;
 import java.util.Arrays;

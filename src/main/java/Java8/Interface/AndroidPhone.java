@@ -1,4 +1,4 @@
-package main.java.Java8.Interface;
+package Java8.Interface;
 
 public class AndroidPhone implements Phone{
     public void call(){
