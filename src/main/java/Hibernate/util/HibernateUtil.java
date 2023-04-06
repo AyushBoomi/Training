@@ -1,16 +1,19 @@
 package Hibernate.util;
 
-import Hibernate.model.Student;
+
+//import Hibernate.MappingOneToMany.OneToManyAccount;
+//import Hibernate.MappingOneToMany.OneToManyEmployee;
+import Hibernate.MappingManytoMany.ManyToManyAccount;
+import Hibernate.MappingManytoMany.ManyToManyEmployee;
+//import Hibernate.MappingOneToOne.foreignKeyAsso.OneToOneAccount;
+//import Hibernate.MappingOneToOne.foreignKeyAsso.OneToOneEmployee;
 import org.hibernate.SessionFactory;
-import org.hibernate.boot.registry.BootstrapServiceRegistryBuilder;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.cfg.Environment;
 
-import javax.imageio.spi.ServiceRegistry;
 import java.util.Properties;
-import java.util.ServiceConfigurationError;
 
 public class HibernateUtil {
 
@@ -29,7 +32,14 @@ public class HibernateUtil {
                 settings.put(Environment.HBM2DDL_AUTO,"create-drop");
 
                 configuration.setProperties(settings);
-                configuration.addAnnotatedClass(Student.class);
+                configuration.addAnnotatedClass(ManyToManyEmployee.class);
+                configuration.addAnnotatedClass(ManyToManyAccount.class);
+
+//                configuration.addAnnotatedClass(OneToManyEmployee.class);
+//                configuration.addAnnotatedClass(OneToManyAccount.class);
+//
+//                configuration.addAnnotatedClass(OneToOneEmployee.class);
+//                configuration.addAnnotatedClass(OneToOneAccount.class);
 //                sessionFactory = new Configuration().configure().buildSessionFactory();
                 StandardServiceRegistry serviceRegistry= new StandardServiceRegistryBuilder().applySettings(configuration.getProperties()).build();
 
